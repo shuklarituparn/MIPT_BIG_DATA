@@ -100,3 +100,6 @@ from pyspark import SparkContext, SparkConf
 config = SparkConf().setAppName("my_super_app").setMaster("local[3]")  # config; specify application name and execution mode (local[*] to run the app locally, yarn for YARN)
 sc = SparkContext(conf=config)  # create a context using our config
 ```
+
+
+
